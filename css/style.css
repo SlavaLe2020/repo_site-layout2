@@ -5,6 +5,13 @@
 a {
     color: #000;
     text-decoration: none;
+    display: inline-block;
+}
+
+body {
+    font-weight: 400;
+    font-family: 'Lato', sans-serif;
+    line-height: 24px;
 }
 
 .container {
@@ -47,4 +54,79 @@ a {
 
 .top__inner {
     display: flex;
+}
+
+.top-info {
+    max-width: 555px;
+    margin-right: 35px;
+    color: #fff;
+}
+
+.top-info__title {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 52px;
+    text-transform: uppercase;
+}
+.top-info__descr {
+    font-size: 19px;
+    font-weight: 700;
+    line-height: 52px;
+    margin-bottom: 35px;
+}
+
+.top-info__descr span {
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+    display: block;
+}
+.top-info__list {
+    list-style: none;
+    margin-bottom: 50px;
+}
+
+.top-info__list li {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-bottom: 3px;
+    position: relative;
+    padding-left: 24px;
+
+}
+
+.top-info__list li::before {
+    content: "";
+    background-image: url(../images/list-icon.png);
+    width: 13px;
+    height: 13px;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.top-info__btn {
+    color: #fff;
+    text-transform: uppercase;
+    border: 3px solid #fff;
+    padding: 13px 44px;
+    border-radius: 30px;
+    margin-bottom: 15px;
+}
+.top-info__btn-descr {
+    
+}
+.top-images {
+}
+.top-images__box {
+}
+.top-images__circle {
+}
+.top-images__title {
+}
+.top-images__price {
+}
+.top-images__date {
 }

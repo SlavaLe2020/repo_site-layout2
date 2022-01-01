@@ -364,3 +364,30 @@ body {
     padding: 10px;
     cursor: pointer;
 }
+
+.reviews {
+    padding: 120px;
+    background-color: #fafafa;
+}
+
+.reviews-slider {
+    margin-top: 160px;
+}
+
+.reviews-slider__item {
+}
+
+.reviews-box {
+    background-color: #267ae9;
+}
+
+.reviews-box__content {
+    background-color: #fff;
+    padding-left: 190px;
+}
+
+.reviews-box__text {
+}
+
+.reviews-box__author {
+}

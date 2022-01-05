@@ -1,3 +1,19 @@
+@media (max-width: 1160px) {
+    .price__items {
+        flex-wrap: wrap;
+    }
+    .price-item {
+        max-width: 48%;
+        margin-bottom: 50px;
+    }
+    .price-item__number {
+        margin: 0 auto;
+        right: 0;
+        left: 0;
+    }
+}
+
+
 @media (max-width: 1065px) {
     .top-info {
         max-width: 425px;
@@ -70,6 +86,12 @@
         padding-top: 50px;
         padding-bottom: 80px;
     }
+    .price-item {
+        max-width: 100%;    
+    }
+    .price {
+        padding: 50px 0 80px;
+    }
 }
 
 @media (max-width: 399px) {
@@ -81,6 +103,17 @@
         top: -5px;
         right: 10px;
     }
+    .title {
+        font-size: 36px;
+        line-height: 40px;
+    }
+    .price__descr {
+        margin: 35px auto 50px;
+    }
+    .price-item {
+        padding: 0 20px 60px;
+    }
+
 }
 
 
